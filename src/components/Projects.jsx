@@ -42,6 +42,22 @@ const Projects = () => {
           )
         }
       ]
+    },
+    {
+      title: 'Portfolio Website',
+      type: 'Personal Portfolio',
+      description: 'A sleek, modern portfolio website built with React and Vite. Features an interactive sand falling simulation. (It is indeed this website)',
+      links: [
+        {
+          label: 'GitHub',
+          url: 'https://github.com/KostaV0108/PortfolioSite',
+          icon: (
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 19C4 20.5 4 16.5 2 16M22 16V19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V16M16 16V13C16 12.4696 15.7893 11.9609 15.4142 11.5858C15.0391 11.2107 14.5304 11 14 11H10C9.46957 11 8.96086 11.2107 8.58579 11.5858C8.21071 11.9609 8 12.4696 8 13V16M16 16H8M12 7V3M12 3L9 6M12 3L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          )
+        }
+      ]
     }
   ]
 
